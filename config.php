@@ -18,7 +18,7 @@ define('ZABBIX_API_URL', rtrim(ZABBIX_URL, '/').'/api_jsonrpc.php');
 // Credenciales de la API de Zabbix (crea un usuario dedicado con permisos de solo lectura)
 define('ZABBIX_API_USER', 'Admin');   // Nombre de usuario de la API
 define('ZABBIX_API_PASS', 'zabbix');  // Contraseña del usuario de la API
-define('CUSTOM_LOGO_PATH', 'assets/sonda.png');
+define('CUSTOM_LOGO_PATH', 'assets/Zabbix_logo.png');
 define('APPLY_LOGO_BLEND_MODE', true);
 
 // ===== CONFIGURACIÓN AVANZADA =====
